@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-	<%@ page isELIgnored = "false" %>
+<%@ page isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,10 +17,9 @@
 	out.println("Name: " + name);
 	out.println("Salary: " + salary);
 	%>
-	<br/>
-	
-	ID: <strong>"${id}</strong>
-	Name: <strong>${name}</strong>
-	Salary: <strong>${salary}</strong>
+	<br /> ID:
+	<strong>${id}</strong> Name:
+	<strong>${name}</strong> Salary:
+	<strong>${salary}</strong>
 </body>
 </html>
